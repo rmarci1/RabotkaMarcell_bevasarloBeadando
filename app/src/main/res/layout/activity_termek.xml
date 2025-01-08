@@ -6,38 +6,49 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".TermekActivity">
 
     <EditText
-        android:id="@+id/productName"
+        android:id="@+id/nameInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Termék neve" />
 
     <EditText
-        android:id="@+id/unitPrice"
+        android:id="@+id/unitPriceInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Egységár"
         android:inputType="numberDecimal" />
 
     <EditText
-        android:id="@+id/quantity"
+        android:id="@+id/quantityInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Mennyiség"
         android:inputType="numberDecimal" />
 
     <EditText
-        android:id="@+id/unit"
+        android:id="@+id/unitInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Mértékegység" />
 
     <Button
-        android:id="@+id/addProductButton"
+        android:id="@+id/modifyButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hozzáadás" />
+        android:text="Módosítás" />
 
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Törlés" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mégse" />
 </LinearLayout>
